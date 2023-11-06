@@ -1,0 +1,986 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+ .page1 .nav{
+display: flex;
+padding: 20px;
+justify-content: space-between;
+
+}
+.page1{
+    background-color: #f3f3f3;
+    height: 100vh;
+    width: 100%;
+}
+.left-nav{
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.page1 a{
+
+    font-weight: 300;
+    font-size: 14.4px;
+    padding: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+
+ .page1 .mid a{
+    
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: -20px;
+  
+   
+ }
+
+ .page1 .right-nav{
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.page1 img{
+   object-fit: cover;
+    height: 87%;
+    width: 96.5%;
+    position: absolute;
+    left: 2%;
+}
+ .page1 h1{
+    position: absolute;
+    top: 59%;
+    left:7%;
+    color: white;
+    font-size: 64px;
+    font-weight: 300;
+    font-family: Cardinal fruit;
+}
+.page1 h1 i{
+ font-family: Cardinal fruit;
+}
+.page1 h3{
+    position: absolute;
+    top: 73%;
+    font-family: sans-serif;
+    color:white ;
+    font-weight: 5;
+    width: 80%;
+    left: 12%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.page1 button{
+    text-transform: uppercase;
+    background-color: #f3f3f3;
+    padding: 14px 24px;
+    position: absolute;
+    top: 83%;
+    border: none;
+    left: 46%;
+    font-size: 14px;
+    font-family: sans-serif;
+    animation-duration: 1s;
+   animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-top: 10%;
+    }
+    to{
+        margin-top: 0%;
+    }
+
+}
+.page1 button:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1.1s;
+}
+
+.page2{
+    background-color: #eceaea;
+    height: 130vh;
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+}
+.page2 img{
+    height: 98%;
+    width: 50%;
+    margin-left: 22px;
+    object-fit: cover;
+}
+.page2 .right-content {
+    position: relative;
+    
+}
+.page2 .right-content .c1 h1{
+    font-family: Cardinal fruit;
+    position: absolute;
+    left: 20%;
+    font-weight: 500;
+    width: 270px;
+    top: 12%;
+    font-size: 48px;
+}
+.page2 .right-content  .c2 h1{
+    font-family: Cardinal fruit;
+    position: absolute;
+    left: 28%;
+    font-weight: 500;
+    width: 100%;
+    top: 19%;
+    font-size: 47px;
+}
+.page2 .right-content  .c3 h1{
+    position: absolute;
+    left:85%;
+    width: 370px;
+    top: 30%;
+    font-size: 54px;
+    font-weight: 450;
+}
+.page2 .right-content  .c3 h1 i{
+    font-family: Cardinal fruit;
+}
+.page2 .right-content .c4 h3{
+    position: absolute;
+    left: 20%;
+    width: 380px;
+    top: 44%;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 530;
+
+   
+}
+.page2 .right-content .c5 h3{
+    position: absolute;
+    left: 20%;
+    width: 370px;
+    color: black;
+    top: 54%;
+    font-size: 15px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 530;
+    line-height: 1.5;
+}
+.page2 .right-content .tick {
+    display: flex;
+    height: 100%;
+    width: 133%;
+    justify-content: center;
+    align-items: end;
+  
+   
+
+    
+
+}
+.page2 .right-content .tick h4{
+    padding: 15px;
+    margin-bottom: 232px;
+    font-size: 16px;
+    font-weight: 400 ;
+   
+   
+   
+}
+.page2 .right-content .tick i{
+    font-weight: 1000;
+    font-size: 22px;
+    
+}
+.page2 .right-content button{
+    position: absolute;
+text-transform: uppercase;
+bottom: 136px;
+left: 19%;
+text-transform: uppercase;
+background-color: #dadada;
+padding: 16px 26px;
+
+border: none;
+font-size: 14px;
+font-family: sans-serif;
+}
+.page2 .right-content button:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1.1s;
+}
+.page3{
+    height: 160vh;
+    width: 100%;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.page3 .img1 img{
+position: absolute;
+height: 212px;
+width: 195px;
+left: 34%;
+top: 9%;
+object-fit: cover;
+}
+.page3 .img2 img{
+    position: absolute;
+    height: 212px;
+    width: 160px;
+    top: 38%;
+    left: 2%;
+    object-fit: cover;
+    }
+    .page3 .img3 img{
+        position: absolute;
+        height: 260px;
+        width: 245px;
+        top: 30%;
+        right: 3%;
+        object-fit: cover;
+        }
+        .page3 .img4 img{
+            position: absolute;
+            height: 212px;
+            width: 212px;
+            left: 25%;
+            object-fit: cover;
+           bottom: 15%;
+            }
+            .page3 .img5 img{
+                position: absolute;
+                height: 152px;
+                width: 125px;
+                left: 60%;
+                object-fit: cover;
+                bottom: 23%;
+                }
+    .page3 .content-mid{
+       
+       align-items: center;
+        /* background-color: blue; */
+        color: black;
+        text-align: center;
+        width: 100%;
+        height: 130vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+    }
+    .page3 .content-mid .center{
+        width: 44%;
+        margin-top: 142px;
+    }
+    .page3 .content-mid .center h1
+    {
+        font-size: 64px;
+        font-family: Cardinal fruit;
+        font-weight: 560;
+       
+    }
+    .page3 .content-mid .center h1 i{
+        font-family: Cardinal fruit;
+    }
+    .page3 .content-mid .center h3{
+margin-top: 32px;
+font-size: 16px;
+font-weight: 400 ;
+line-height: 1.6;
+
+
+    }
+    .page3 .content-mid .center button{
+        text-transform: uppercase;
+        background-color: #dadada;
+        margin-top: 30px;
+        padding: 16px 32px;
+        border: none;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .page3 .content-mid .center button:hover{
+        background-color: black;
+        color: white;
+        transition: all ease 1.1s;
+    }
+    .page4{
+        height: 100vh;
+        width: 100%;
+        background-color: #f3efef;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page4 .text-box{
+     
+    
+        width: 600px;
+        height: 400px; 
+        
+        
+    }
+
+    .page4 .text-box .text h3{
+       width: 600px;
+       height: 100px;
+       text-align: center;
+       font-family: Cardinal fruit;
+       font-size: 34px;
+       font-weight: 500;
+       
+    }
+    .page4 .logos{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+    }
+    .page4 .logos img{
+        height: 22px;
+      margin-top: 220px;
+       opacity: 0.5;
+    }
+    .page4 .logos img:hover{
+        opacity: 1;
+    }
+
+
+    
+   
+   .page5{
+    height: 100vh;
+  
+    width: 100%;
+   }
+   .page5 .nav{
+    padding-top: 52px;
+    display: flex;
+    margin: 28px;
+   }
+   .page5 .nav a{
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 12px;
+    color: grey;
+    margin-top: 10px;
+
+    
+   }
+
+   .page5 .nav h1{
+    font-size: 48px;
+    font-family: Cardinal fruit;
+    font-weight: 500;
+   }
+    .page5  .nav button{
+        text-transform: uppercase;
+        background-color: #dadada;
+        margin-top: 20px;
+        padding: 14px 32px;
+        border: none;
+        font-size: 15px;
+        font-family: sans-serif;
+        position: absolute;
+        right: 30px;
+    }
+    .page5  .nav button:hover{
+        background-color: black;
+        color: white;
+        transition: all ease 1.1s;
+    }
+    .page5 .boxxx{
+        height: 500px;
+        width: 600px;
+        margin-left: 5px;
+        background-color:#ebe7e7;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+    }
+    .page5 .boxxx:hover #bottom{
+     bottom: 0;
+    }
+    
+    
+ 
+    .page5 .boxes{
+        display: flex;
+    }
+    .wrapper{
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .img-area{
+        position: relative;
+        height: 500px;
+        width: 400px;
+    }
+    .img-area img{
+        position: absolute;
+        left:0px;
+        height: 600px;
+        width: 500px;
+        transition: opacity 1s ease-in-out;
+    }
+    .img-area img.img-font:hover{
+        opacity: 0;
+        cursor: pointer;
+    
+    }
+    .img-area img.img-font{
+        background-color: white;
+
+    }
+
+
+  
+    
+    #bottom{
+        height: 12%;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        bottom: -40%;
+        transition: all ease 0.5s;
+    }
+   
+    #bottom h1{
+        color: white;
+        position: absolute;
+        left: 35%;
+        top: 30%;
+        text-transform: uppercase;
+        font-family: gilroy;
+        font-size: 20px;
+        font-weight: 450;
+    }
+    
+
+   
+    
+    .page5 .boxxx .description{
+        position: absolute;
+        bottom: 22px;
+        left: 12px;
+       
+    }
+    .page5 .boxxx .description h4{
+        font-weight: 400;
+        padding: 4px;
+        width: 300px;
+    }
+    .page5 .boxxx .description .flex{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+.page6 {
+    height: 100vh;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+/* .page6 .cards{
+    display: flex;
+    width: 200%;
+} */
+.page6 h1{
+    padding-top: 130px;
+font-size: 51px;
+font-family: Cardinal fruit;
+font-weight: 550;
+display: flex;
+justify-content: center;
+}
+.page6 .card1{
+    margin-top: 24px;
+    margin-left: 2px;
+    height: 400px;
+   width: 480px;
+   background-color: blue;
+position: relative;
+
+}
+.page6 .card1 .artist {
+    height: 100%;
+}
+.page6 .card1 .artist img{
+position: absolute;
+right: 0%;
+    width: 50%;
+object-fit: cover;
+    height:100% ;
+}
+.page6 .card1 h2{
+    position: absolute;
+    left: 5%;
+color: white;
+font-size:15px;
+font-family: sans-serif;
+font-weight: 300;
+position: absolute;
+width: 150px;
+top: 10%;
+
+}
+.page6 #card1{
+    background-color: grey;
+}
+.page6 #card2{
+    background-color:rgba(241, 164, 112, 0.925);
+}
+.page6 #card3{
+    background-color:black;
+}
+.page6 #card4{
+    background-color: rgba(202, 59, 49, 0.767);
+}
+.page6 #card6{
+    background-color: rgb(68, 32, 7);
+}
+.page6 .card1 i{
+    font-size: 12px;
+   margin: 2px;
+}
+.page6 .card1 .circle img{
+    height: 250px;
+    width: 225px;
+    position: absolute;
+    top: 25%;
+    left: 24%;
+}
+ .page6 .cards{
+    height: 400px;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    /* gap: 20px; */
+}
+.page6 .cards .card1{
+    height: 100%;
+    width: 450px;
+    flex-shrink: 0;
+    /* background-color: pink; */
+    animation: box 10s 2s infinite linear ;
+}
+@keyframes box {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+.page7 {
+    padding-top:10%;
+    display: flex;
+    height: 120vh;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.page7 .ing img{
+    height: 370px;
+    width: 340px;
+   border-right: 4px solid white;
+}
+.page7 h1{
+    font-family: Cardinal fruit;
+    font-size: 56px;
+   font-weight: 300;
+    width: 400px;
+    margin-left: 18px;
+}
+.page7 h1 i{
+    font-family: Cardinal fruit;
+}
+.page7 .ing {
+   font-family: sans-serif;
+    width:340px;
+
+}
+.page7 .ing:hover button{
+    visibility: visible;
+}
+.page7 .ing h2{
+    font-weight: 440;
+    margin: 15px;
+    margin-left: 2px;
+    font-size: 17px;
+}
+.page7 .ing h3{
+    font-size: 15px;
+    font-weight: 400;
+    width: 78%;
+    line-height: 1.4;
+
+}
+
+.page7  button{
+
+text-transform: uppercase;
+bottom: 136px;
+text-transform: uppercase;
+/* background-color: #dadada; */
+padding: 16px 26px;
+margin-top: 22px;
+border: none;
+font-size: 14px;
+font-family: sans-serif;
+
+}
+.page7  button:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1.1s;
+ 
+   
+}
+
+.page8{
+    height: 100vh;
+    width: 100%;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.page8 .full-img img{
+    margin-top: 40px;
+    height: 680px;
+   width: 100%;
+    object-fit: cover;
+  /* margin-left: 20px; */
+  background-position: center;
+   
+
+}
+.page8 .full-img{
+    margin:0px 12px ;
+}
+.page8 .lef{
+    position: absolute;
+    top: 120px;
+    left: 42px;
+}
+.page8 .lef h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.page8 .lef h1{
+    margin-top: 24px;
+    font-family: Cardinal fruit;
+    width: 610px;
+    font-weight: 300;
+    font-size: 36px;
+}
+.page8 .lef button{
+    text-transform: uppercase;
+    bottom: 136px;
+    text-transform: uppercase;
+    background-color: rgb(255, 254, 254);
+    padding: 16px 26px;
+    margin-top: 22px;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.page8 .lef button:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1.1s;
+}
+
+.page9{
+    height: 150vh;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding-top: 100px;
+
+}
+.page9 .container h1{
+    font-family: Cardinal fruit;
+    font-size: 68px;
+    margin: 12px;
+    font-weight: 500;
+    margin-top: 33px;
+}
+.page9 .container h2{
+    margin-top: 20px;
+}
+
+.page9 .container h2 i{
+    font-family: Cardinal fruit;
+    font-size: 36px;
+  padding-top: 22px;
+    font-weight: 500;
+}
+.page9 .container .left-circle h2{
+    font-size: 17px;
+    font-weight: 400;
+}
+.page9 .container .left-circle .left-hed{
+    position: absolute;
+    bottom: 15%;
+    left: -43%;
+}
+.page9 .container .right-circle .right-hed{
+    position: absolute;
+    top: 45%;
+   right: -48%;
+}
+.page9 .container .right-circle .right-hed h2{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top:18px;
+}
+.page9 .container .right-circle .right-hed h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.page9 .container .right-circle .right-hed button{
+    text-transform: uppercase;
+    bottom: 136px;
+    text-transform: uppercase;
+    background-color: rgb(235, 226, 226);
+    padding: 16px 26px;
+    margin-top: 22px;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.page9 .container .right-circle .right-hed button:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1.1s;
+}
+
+
+.page9 .container .left-circle h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 12px;
+    
+}
+.container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.page9 .imgg .center-img img{
+    height: 650px;
+    width: 450px;
+}
+.page9 .imgg .right-circle img{
+    height: 290px;
+    position: absolute;
+    top: 9%;
+    right:-34%;
+    
+
+}
+.page9 .imgg  .left-circle img{
+    height: 290px;
+    position: absolute;
+    top: 38%;
+    left: -34%;
+}
+.page9 .imgg{
+    position: relative;
+}
+.page10 {
+
+background-color: #f3f3f3;
+    height: 72vh;
+    width: 100%;
+   
+}
+.page10 h1{
+   padding-top: 44px;
+   margin-bottom: 50px;
+    display: flex;
+    font-size: 54px;
+    font-weight: 300;
+    justify-content: center;
+    padding: 32px;
+    font-family: Cardinal fruit;
+}
+.page10 .boxes{
+    display: flex;
+    margin: 0px 20px;
+   animation: slide 20s infinite linear ;
+    
+    
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+    
+}
+.page10 .boxes .box img{
+    height: 300px;
+    width: 270px;
+}
+.page11{
+    height: 100vh;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.page11 .containerr{
+    display: flex;
+    margin: 16px;
+    height: 88vh;
+}
+.page11 .containerr .leftt{
+    width: 50%;
+    height: 90vh;
+    background-color: #fdfafa;
+  
+}
+.page11 .containerr .rightt{
+    width: 50%;
+    height: 90vh;
+    background-color: #eceaea;
+}
+.page11 .containerr .leftt .left-content{
+    margin: 92px 55px;
+    
+}
+.page11 .containerr .leftt img{
+    height: 140px;
+
+}
+.page11 .containerr .leftt h3{
+    font-size: 16px;
+   padding-bottom: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.page11 .containerr .leftt h2{
+    font-weight: 300;
+    font-family: Cardinal fruit;
+    font-size: 35px;
+    padding-bottom: 32px;
+}
+.page11 .containerr .leftt input{
+   padding: 12px 180px;
+   border: none;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+   background-color: #f3f3f3;
+   margin-bottom: 32px;
+
+}
+.page11 .containerr .rightt .right-content{
+   margin: 112px 51px;
+
+}
+.page11 .containerr .rightt .right-content .c1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.page11 .containerr .rightt .right-content .c1 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 17px;
+}
+.page11 .containerr .rightt .right-content .c1 a:hover{
+    text-decoration: underline;
+}
+
+.page11 .containerr .rightt .right-content .c2{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.page11 .containerr .rightt .right-content .c2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 17px;
+}
+.page11 .containerr .rightt .right-content .c2 a:hover{
+    text-decoration: underline;
+}
+.page11 .containerr .rightt .right-content .cc{
+    display: flex;
+    gap: 36px;
+}
+.page11 .containerr .rightt .right-content .c3{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.page11 .containerr .rightt .right-content .c3 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 17px;
+}
+.page11 .containerr .rightt .right-content .c3 a:hover{
+    text-decoration: underline;
+}
+.page11 .footer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.page11 .footer .ll h2{
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 22px;
+   
+}
+.page11 .footer .rr{
+    position: absolute;
+    right: 20px;
+}
+.page11 .footer .rr a{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 12px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+

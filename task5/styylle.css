@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+}
+.minibox{
+    height: 100%;
+    width: 250px;
+    flex-shrink: 0;
+    background-color: pink;
+    animation: box 10s 2s infinite linear ;
+}
+@keyframes box {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
